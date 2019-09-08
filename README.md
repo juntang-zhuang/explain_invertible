@@ -15,4 +15,4 @@ The difference between and point and its projection onto the boundary can be vie
 * run ```python generate_boundary.py``` to generate figures
 
 # Invertible block structure
-
+![Invertible Network Structure](figures/inv_net_structure.png)
