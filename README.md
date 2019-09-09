@@ -20,6 +20,10 @@ The difference between and point and its projection onto the boundary can be vie
 The forward and inverse of an invertible block is: <br/>
 ![Forward_inverse](figures/forward_inverse.png) <br/>
 
+# Invertible Network as a 2-stage model
+* transfrom from the input domain to the feature domain $feature = T(x)$ where $T$ is an invertible function
+* linear classifier in the feature domain $\hat{y} = Linear\_Classifier(feature)$
+
 # Results 
 * We explicitly determine the decision boundary, and the projection of datapoints onto the boundary <br/>
 ![results](figures/results.png)
